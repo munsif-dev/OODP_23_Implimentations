@@ -22,3 +22,8 @@ public class FactoryPatternDemo {
         shape3.draw();
     }
 }
+
+
+// Here, open-closed principle is implemented. If we want to add a new shape, we just need to add a new class and implement the Shape interface.
+// We don't need to change the ShapeFactory class. This is the advantage of Factory Pattern. It is also called as Factory Method Pattern.
+// Instead, we just add another if else block in the getShape method of the ShapeFactory class to add a new shape.

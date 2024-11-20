@@ -1,5 +1,6 @@
 import java.util.HashMap;
 import java.util.Map;
+
 public class CacheManager {
     private Map<String, Object> cache;
     private CacheManager() {
